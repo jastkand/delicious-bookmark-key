@@ -20,5 +20,22 @@
                 "js/content.js"
             ]
         }
-    ]
+    ],
+
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "persistent": false
+    },
+    
+    "commands": {
+        "open-delicious-window": {
+            "suggested_key": {
+                "default": "Alt+D",
+                "mac": "Alt+D"
+            },
+            "description": "Open delicious \"Add Bookmark\" window"
+        }
+    }
 }
